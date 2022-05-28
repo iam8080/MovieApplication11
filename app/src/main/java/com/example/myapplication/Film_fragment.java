@@ -31,9 +31,9 @@ public class Film_fragment extends Fragment {
         ImageSlider imageSlider  =   (ImageSlider) viewGroup.findViewById(R.id.slider);
         ArrayList<SlideModel>  slideModels    =   new ArrayList<>();
        slideModels.add(new SlideModel("https://c.wallhere.com/photos/37/db/tv_series_Stranger_Things_Netflix-1197548.jpg!d", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("", ScaleTypes.FIT));
-        slideModels.add(new SlideModel("", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://c.wallhere.com/photos/37/db/tv_series_Stranger_Things_Netflix-1197548.jpg!d", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://c.wallhere.com/photos/37/db/tv_series_Stranger_Things_Netflix-1197548.jpg!d", ScaleTypes.FIT));
+        slideModels.add(new SlideModel("https://c.wallhere.com/photos/37/db/tv_series_Stranger_Things_Netflix-1197548.jpg!d", ScaleTypes.FIT));
         imageSlider.setImageList(slideModels);
         return viewGroup;
 
