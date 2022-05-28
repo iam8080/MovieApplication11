@@ -1,11 +1,74 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="#0b0000"
     android:layout_height="match_parent"
     tools:context=".Film_fragment">
+<!--<               ,   ;   F   f>-->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Coming Soon"
+        android:id="@+id/text"
+        android:textColor="#e0e0e0"
+        android:layout_marginTop="12dp"
+        android:textSize="28sp"
+        android:layout_marginLeft="20dp"/>
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_margin="10dp"
+        android:id="@+id/cardview"
+        android:backgroundTint="#0b0000"
+        android:layout_below="@id/text"
+        android:layout_marginTop="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        >
+
+            <com.denzcoskun.imageslider.ImageSlider
+                android:layout_width="match_parent"
+                android:layout_below="@id/text"
+                android:background="@android:color/transparent"
+                android:layout_height="match_parent"
+                android:id="@+id/slider"
+                app:iss_auto_cycle="true"
+                app:iss_corner_radius="10"
+                app:iss_period="1000"
+                app:iss_delay="1000"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rv1"
+        android:background="#eeee"
+        android:layout_below="@id/cardview">
+    </androidx.recyclerview.widget.RecyclerView>
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Treading Now"-->
+<!--        android:layout_below="@+id/rv1"-->
+<!--        android:textColor="#e0e0e0"-->
+<!--        android:layout_marginTop="18dp"-->
+<!--        android:textSize="28sp"-->
+<!--        android:layout_marginLeft="18dp"-->
+<!--        android:id="@+id/text2"-->
+<!--        />-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_below="@+id/text2"-->
+<!--        android:background="#eeee"-->
+<!--        android:id="@+id/rv2"-->
+<!--        />-->
 
 
 
-</FrameLayout>
+</RelativeLayout>
