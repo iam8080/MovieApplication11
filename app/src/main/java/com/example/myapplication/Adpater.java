@@ -38,4 +38,7 @@ class Adpater extends FragmentPagerAdapter {
 
         return fragmentTilte.get(position);
     }
+
+
+
 }

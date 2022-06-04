@@ -44,6 +44,101 @@
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/cardview"
+      >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/static_mv_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="All"
+                android:fontFamily="@font/openm"
+                android:textColor="#efefef"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/static_mv_bg"
+                android:gravity="center"
+                android:padding="8dp"
+                android:fontFamily="@font/openm"
+                android:text="Action"
+                android:textColor="#efefef"
+                android:textSize="18sp" />
+            <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/static_mv_bg"
+            android:gravity="center"
+            android:padding="8dp"
+                android:fontFamily="@font/openm"
+            android:text="Drama"
+            android:textColor="#efefef"
+            android:textSize="18sp" />
+            <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="10dp"
+            android:background="@drawable/static_mv_bg"
+            android:gravity="center"
+            android:padding="8dp"
+                android:fontFamily="@font/openm"
+            android:text="Crime"
+            android:textColor="#efefef"
+            android:textSize="18sp" />
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="@drawable/static_mv_bg"
+                android:gravity="center"
+                android:padding="8dp"
+                android:fontFamily="@font/openm"
+                android:text="Comdy"
+                android:textColor="#efefef"
+                android:textSize="18sp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:fontFamily="@font/openm"
+                android:background="@drawable/static_mv_bg"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Thriller"
+                android:textColor="#efefef"
+                android:textSize="18sp" />
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+    </HorizontalScrollView>
 <!--    <TextView-->
 <!--        android:layout_width="wrap_content"-->
 <!--        android:layout_height="wrap_content"-->

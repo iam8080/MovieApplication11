@@ -2,21 +2,17 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:id="@+id/ll1"
     android:background="#0b0000"
     android:layout_height="match_parent"
     tools:context=".Serie_Fragment">
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal"
 
-        >
         <androidx.recyclerview.widget.RecyclerView
             android:layout_width="match_parent"
+            android:orientation="horizontal"
             android:layout_height="wrap_content"
-            android:id="@+id/rv1"
+            android:id="@+id/rv11"
             android:background="#eeee"
         >
         </androidx.recyclerview.widget.RecyclerView>
     </LinearLayout>
-</LinearLayout>
